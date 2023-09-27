@@ -1,6 +1,6 @@
 const arr = [10, 12, 15, 21];
 ```
-for (let i = 0; i < arr.length; i++) {
+for (var i = 0; i < arr.length; i++) {
   setTimeout(function() {
     console.log(arr[i] > 13 != 0 ? `Good: ${arr[i]}` : `Bad: ${arr[i]}`)
   }, 3000);
